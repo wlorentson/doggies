@@ -19,7 +19,7 @@ var globalStore = {
   yardState: YardState
 };
 
-var sikka_net_client = React.createClass({
+var doggies = React.createClass({
   renderScene(route, nav) {
     switch (route.id) {
       case 'Shop':
@@ -47,4 +47,4 @@ var sikka_net_client = React.createClass({
   }
 });
 
-AppRegistry.registerComponent('sikka_net_client', () => sikka_net_client);
+AppRegistry.registerComponent('doggies', () => doggies);
